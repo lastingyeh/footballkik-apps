@@ -4,8 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"engines": {
-    "node": "8.11.2",
-    "npm":"6.1.0"
+		"node": "8.11.2",
+		"npm": "6.1.0"
 	},
 	"scripts": {
 		"dev": "nodemon server.js",
@@ -30,6 +30,7 @@
 		"express-promise-router": "^3.0.2",
 		"express-session": "^1.15.6",
 		"express-validator": "^5.2.0",
+		"forever": "^0.15.3",
 		"formidable": "^1.2.1",
 		"helmet": "^3.12.1",
 		"lodash": "^4.17.10",
