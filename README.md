@@ -48,6 +48,14 @@
 
            then run back to step 4.
 
+        6. as exec command in heroku
+
+                $ touch Procfile
+
+           add text in Procfile
+
+                web: ./node_modules/.bin/forever -m 5 server.js
+
 
 
 ### Refs By Udemy Course
