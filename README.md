@@ -1,4 +1,4 @@
-### Main Topic
+### Main Topics
 
         1. group-chat system
 
@@ -19,6 +19,35 @@
         9. container to use global modules applied
 
         10.get news api services by http://content.guardianapis.com/
+
+### Deploy Heroku
+
+        1. login
+
+                $ heroku login
+
+        2. create project (in project folder)
+
+                $ heroku create project
+
+        3. show projects
+
+                $ heroku apps
+
+        4. push code to heroku server
+
+                $ git push heroku master
+
+        5. as change in github
+
+                $ git add .
+
+                $ git commit -m ''
+
+                $ git push
+
+           then run back to step 4.
+
 
 
 ### Refs By Udemy Course
